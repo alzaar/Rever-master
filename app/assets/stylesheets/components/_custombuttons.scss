@@ -1,0 +1,92 @@
+
+.buttoncustom {
+  background: #333;
+  color: #00FF00;
+  width: 100px;
+  height: 50px;
+  border: 0;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  transition: .6s;
+  overflow: hidden;
+  &:hover{
+    background: #338033;
+    cursor: pointer;
+    // &:before{
+    //   transform: translateX(300px)  skewX(-15deg);
+    //   opacity: 0.6;
+    //   transition: .7s;
+    // }
+    // &:after{
+    //   transform: translateX(300px) skewX(-15deg);
+    //   opacity: 1;
+    //   transition: .7s;
+    // }
+  }
+}
+
+.profilebutton {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid $red;
+  border-radius: 0.6em;
+  color: $red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border-color: $green;
+  color: #fff;
+  background: {
+  image: linear-gradient(45deg,$green 50%, transparent 50%);
+  position: 100%;
+  size: 200%;
+  }
+  transition: background 300ms ease-in-out;
+}
+
+.profilebutton:hover {
+  background-position: 0;
+  }
+
+.btn-primary.custom-btn {
+  background-color: #222222;
+  border: solid #00FF00;
+  // border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #00FF00;
+  margin-top: 7px;
+}
+
+.btn-primary.custom-btn:hover {
+  box-shadow: 0 0 5px 0 #7FFF00 inset, 0 0 10px 1px #7FFF00;
+  // border: 2px solid #7FFF00;
+}
+
+.table-borders {
+  color: white;
+}
+
+.custom-btn-thin {
+  border: 2px solid #00FF00 !important;
+  margin-left: 10px;
+}
+
+#reject {
+  color: red;
+  border: 2px solid red !important;
+  &:hover {
+    box-shadow: 0 0 5px 0 red inset, 0 0 10px 1px red !important;
+  }
+}

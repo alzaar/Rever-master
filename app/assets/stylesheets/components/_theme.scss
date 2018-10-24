@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+}
+
+h1,h2,h3,h5 {
+  color: white;
+}
+h4 {
+  color: #00FF00;
+  span {
+    color: white;
+  }
+}
+
+p2 {
+  color: #999999;
+}
+
+.body-font {
+  font-family: $body-font;
+}
+
+.title a {
+  color: #00FF00;
+}
+
+.title h1 {
+  color: #00FF00;
+  font-size: 13px !important;
+}
+
+p {
+  color: white;
+  font-size: 40px;
+}
+
+// .space {
+//   margin: 15px;
+// }
+
+td {
+  color: #00FF00;
+}
+
+.show-page-p {
+  font-size: 17px;
+  margin: 12px 0 12.5px;
+  color:#00FF00;
+}

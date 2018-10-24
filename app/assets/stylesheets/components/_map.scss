@@ -1,0 +1,29 @@
+.map-details {
+height: 600px;
+// padding-right: 25px;
+border: solid white;
+margin-top: 26px;
+position: sticky !important;
+top: 0;
+}
+
+.map-container {
+  position: sticky !important;
+  top: 0;
+      width: 650px;
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+// .map-details-padding {
+// padding-right: 35px;
+
+// }
+
+.map-details-show {
+  height: 469px;
+  width: 595px;
+  border: solid white;
+}
